@@ -247,9 +247,9 @@ html {
 @media only screen and (max-width: 500px) {
   .wrapper {
     position: relative;
-    left: 43%;
+    left: 39%;
     transform: translate(-50%, 0);
-    top: -83px;
+    top: -68px;
   }
   .debit-card {
     transform: rotate(-90deg);
