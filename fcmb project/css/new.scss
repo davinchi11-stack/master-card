@@ -1,0 +1,323 @@
+@import 'mixin';
+@import 'virable';
+
+
+
+svg{
+    height: 3em;
+}
+
+html{
+    font-size: 16px;
+    font-size: $font-one;
+    
+}
+
+
+.wrapper{
+    font-size: $font-one;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    @include setflex(flex,center,center,initial);
+    
+    
+   
+
+
+    .debit-card{
+        position: relative;
+        height: 18em;
+        width: 28.6em;
+        background: linear-gradient(93deg, #ce199a, #62136e);
+        border-radius: 1em;
+        overflow: hidden;
+        box-shadow: rgb(148 143 143 / 79%) 0px 4px 10px 4px;
+        padding: 2em;
+        z-index: 999;
+        
+        
+        
+ 
+
+        
+      
+          .debit-header{
+                position: relative;
+                width: 100%;
+                
+
+             .logo{
+                position: absolute;
+                z-index: 9999;
+                width: 100%;
+                 svg{
+                   fill: #fff;
+                   color: #fff;
+                 }
+
+
+            .logo-first{
+                 @include setflex(flex,space-between,center,initial);
+                 margin-bottom: 1em;
+                 
+                 width: 100%;
+                
+                 .logo-side{
+                       @include setflex(flex,center,center,initial); 
+                    img{
+                     height: 3.5em;
+                  }
+
+                 svg{
+                    transform: rotate(90deg);
+                    margin-left: 10px;
+                    margin-bottom: 10px;
+                    height: 2.6em;
+                    
+                 }
+  
+                 }
+
+                 .text-area{
+                    color: #fff;
+                    font-family: $font-one;
+
+                  .title{
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    font-size: 0.75em
+                  }
+                  .debit{
+                    display: block;
+                    position: relative;
+                    left: 5.7em;
+                    font-weight: 400;
+                    position: relative;
+                    top: 25px;
+                    font-size: 1.2em
+
+                  }
+               }
+
+                 
+            }
+
+            .logo-second{
+               @include setflex(flex,initial,center,initial);
+               position: relative;
+               right: 36px;
+
+                img{
+                     height: 2.5em;
+                 }
+
+                 svg{
+                    position: relative;
+                    height: 2.3em;
+                    top: 10.3px;;
+                 }
+            }
+             }
+
+          }
+
+          .derbit-box{
+            position: absolute;
+            
+            
+
+            .box-one{
+                height: 8.3em;
+                width: 7.9em;
+                border: 2px solid $innerbox-one;
+                border-radius: 10px;       
+                 top: 51px;
+                position: absolute;
+                left: 14px;
+                z-index: 1;
+
+                .inner{
+                    height: 3em;
+                    width: 3em;
+                    border: 2px solid #d67e24;
+                    border-radius: 6px;   
+                     position: relative;
+                     top: 1.2em;
+                     left: 2em;
+                     
+                }
+
+                .inner-two{
+                    height: 3.7em;
+                    width: 3.5em;
+                    border: 2px solid #ea82c7;
+                    border-radius: 6px;   
+                     position: absolute;
+                     top: -1.6em;
+                     left: 3.4em;
+
+                     
+                     
+                }
+            }
+           
+
+            .box-two{
+                height: 6.3em;
+                width: 7.3em;
+                border: 2px solid $innerbox-one;
+                border-radius: 10px;       
+                position: absolute;
+                left: 7.2em;
+                
+
+                .inner{
+                    height: 2em;
+                    width: 2em;
+                    border: 2px solid $gold-one;
+                    border-radius: 3px;   
+                     position: relative;
+                     top: 5px;
+                     left: 13px;
+  
+                }
+
+                
+            }
+
+
+            .box-three{
+                height: 8.3em;
+                width: 8.7em;
+                border: 2px solid #db4d87;
+                border-radius: 10px;       
+                 top: 5.5em;
+                position: absolute;
+                left: 7em;
+                z-index: 1;
+                
+
+                .inner{
+                    height: 4.5em;
+                    width: 4.5em;
+                    border: 2px solid rgb(196 149 19);
+                    border-radius: 6px;   
+                     position: relative;
+                     top: 2em;
+                     left: 4.6em;
+                     
+                }
+
+                .inner-two{
+                    height: 2.7em;
+                    width: 2.9em;
+                    border: 2px solid #ea82c7;
+                    border-radius: 3px;   
+                     position: absolute;
+                     top: -1.6em;
+                     right: -20px;
+
+                     
+                     
+                }
+            }
+
+
+          }
+
+          .debit-footer{
+            position: absolute;
+            z-index: 9999;
+            top: 11em;
+            width: 100%;
+            font-family: $font-two;
+
+            .number{
+                display: block;
+                font-size: 1.75em;
+                font-weight: 500;
+            }
+            
+            .num{
+              color: #fff; 
+                @include setflex(flex,space-between,center,initial);
+                width: 52%;
+                font-size: 0.8em;
+                position: relative;
+                bottom: 7px;
+
+                .digit{
+                     position: relative;
+                     bottom: 6px;
+                     
+                }
+
+                .year{
+                   display: flex;
+                   text-transform: uppercase;
+                   font-weight: 600;
+                   margin-right: 1em;
+                   font-family: $font-one;
+                    .valid{
+                        font-size: 0.65em;
+                        margin-right: 5px;
+                        margin-top: 6px;
+                        
+                    }
+
+                    .date{
+                       display: block;
+                       line-height: 1.2em;
+                       font-size: 0.8em;
+                       font-family: $font-two;
+                       font-weight: 400;
+                       .expire{
+                        display: block;
+                        color: #000;
+                        font-size: 1.5em;
+                        font-weight: 600;
+                       } 
+
+                    }
+                }
+
+
+            }
+
+            .name{
+              @include setflex(flex,initial,center,initial);
+              position: relative;
+              bottom: 18px;
+                .title{
+                   font-size: 1.2em;
+                   text-transform: uppercase;
+                   font-weight: 600;
+                }
+
+                svg{
+                    width: 4em;
+                    margin-left: 10px;
+                    
+                }
+            }
+            
+          }
+
+
+    }
+}
+
+@media only screen and (max-width:500px){
+     
+.wrapper{
+    position: relative;
+    left: 43%;
+    transform: translate(-50%,0);
+    top: -83px;
+}
+     .debit-card{
+        transform: rotate(-90deg);
+         
+     }
+}

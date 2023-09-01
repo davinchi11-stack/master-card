@@ -1,0 +1,259 @@
+svg {
+  height: 3em;
+}
+
+html {
+  font-size: 16px;
+  font-size: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  font-size: "Montserrat", sans-serif;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: initial;
+}
+.wrapper .debit-card {
+  position: relative;
+  height: 18em;
+  width: 28.6em;
+  background: linear-gradient(93deg, #ce199a, #62136e);
+  border-radius: 1em;
+  overflow: hidden;
+  box-shadow: rgba(148, 143, 143, 0.79) 0px 4px 10px 4px;
+  padding: 2em;
+  z-index: 999;
+}
+.wrapper .debit-card .debit-header {
+  position: relative;
+  width: 100%;
+}
+.wrapper .debit-card .debit-header .logo {
+  position: absolute;
+  z-index: 9999;
+  width: 100%;
+}
+.wrapper .debit-card .debit-header .logo svg {
+  fill: #fff;
+  color: #fff;
+}
+.wrapper .debit-card .debit-header .logo .logo-first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: initial;
+  margin-bottom: 1em;
+  width: 100%;
+}
+.wrapper .debit-card .debit-header .logo .logo-first .logo-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: initial;
+}
+.wrapper .debit-card .debit-header .logo .logo-first .logo-side img {
+  height: 3.5em;
+}
+.wrapper .debit-card .debit-header .logo .logo-first .logo-side svg {
+  transform: rotate(90deg);
+  margin-left: 10px;
+  margin-bottom: 10px;
+  height: 2.6em;
+}
+.wrapper .debit-card .debit-header .logo .logo-first .text-area {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+.wrapper .debit-card .debit-header .logo .logo-first .text-area .title {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.75em;
+}
+.wrapper .debit-card .debit-header .logo .logo-first .text-area .debit {
+  display: block;
+  position: relative;
+  left: 5.7em;
+  font-weight: 400;
+  position: relative;
+  top: 25px;
+  font-size: 1.2em;
+}
+.wrapper .debit-card .debit-header .logo .logo-second {
+  display: flex;
+  justify-content: initial;
+  align-items: center;
+  flex-direction: initial;
+  position: relative;
+  right: 36px;
+}
+.wrapper .debit-card .debit-header .logo .logo-second img {
+  height: 2.5em;
+}
+.wrapper .debit-card .debit-header .logo .logo-second svg {
+  position: relative;
+  height: 2.3em;
+  top: 10.3px;
+}
+.wrapper .debit-card .derbit-box {
+  position: absolute;
+}
+.wrapper .debit-card .derbit-box .box-one {
+  height: 8.3em;
+  width: 7.9em;
+  border: 2px solid #e452b7;
+  border-radius: 10px;
+  top: 51px;
+  position: absolute;
+  left: 14px;
+  z-index: 1;
+}
+.wrapper .debit-card .derbit-box .box-one .inner {
+  height: 3em;
+  width: 3em;
+  border: 2px solid #d67e24;
+  border-radius: 6px;
+  position: relative;
+  top: 1.2em;
+  left: 2em;
+}
+.wrapper .debit-card .derbit-box .box-one .inner-two {
+  height: 3.7em;
+  width: 3.5em;
+  border: 2px solid #ea82c7;
+  border-radius: 6px;
+  position: absolute;
+  top: -1.6em;
+  left: 3.4em;
+}
+.wrapper .debit-card .derbit-box .box-two {
+  height: 6.3em;
+  width: 7.3em;
+  border: 2px solid #e452b7;
+  border-radius: 10px;
+  position: absolute;
+  left: 7.2em;
+}
+.wrapper .debit-card .derbit-box .box-two .inner {
+  height: 2em;
+  width: 2em;
+  border: 2px solid #fbb800;
+  border-radius: 3px;
+  position: relative;
+  top: 5px;
+  left: 13px;
+}
+.wrapper .debit-card .derbit-box .box-three {
+  height: 8.3em;
+  width: 8.7em;
+  border: 2px solid #db4d87;
+  border-radius: 10px;
+  top: 5.5em;
+  position: absolute;
+  left: 7em;
+  z-index: 1;
+}
+.wrapper .debit-card .derbit-box .box-three .inner {
+  height: 4.5em;
+  width: 4.5em;
+  border: 2px solid rgb(196, 149, 19);
+  border-radius: 6px;
+  position: relative;
+  top: 2em;
+  left: 4.6em;
+}
+.wrapper .debit-card .derbit-box .box-three .inner-two {
+  height: 2.7em;
+  width: 2.9em;
+  border: 2px solid #ea82c7;
+  border-radius: 3px;
+  position: absolute;
+  top: -1.6em;
+  right: -20px;
+}
+.wrapper .debit-card .debit-footer {
+  position: absolute;
+  z-index: 9999;
+  top: 11em;
+  width: 100%;
+  font-family: "Roboto Mono", sans-serif;
+}
+.wrapper .debit-card .debit-footer .number {
+  display: block;
+  font-size: 1.75em;
+  font-weight: 500;
+}
+.wrapper .debit-card .debit-footer .num {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: initial;
+  width: 52%;
+  font-size: 0.8em;
+  position: relative;
+  bottom: 7px;
+}
+.wrapper .debit-card .debit-footer .num .digit {
+  position: relative;
+  bottom: 6px;
+}
+.wrapper .debit-card .debit-footer .num .year {
+  display: flex;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-right: 1em;
+  font-family: "Montserrat", sans-serif;
+}
+.wrapper .debit-card .debit-footer .num .year .valid {
+  font-size: 0.65em;
+  margin-right: 5px;
+  margin-top: 6px;
+}
+.wrapper .debit-card .debit-footer .num .year .date {
+  display: block;
+  line-height: 1.2em;
+  font-size: 0.8em;
+  font-family: "Roboto Mono", sans-serif;
+  font-weight: 400;
+}
+.wrapper .debit-card .debit-footer .num .year .date .expire {
+  display: block;
+  color: #000;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+.wrapper .debit-card .debit-footer .name {
+  display: flex;
+  justify-content: initial;
+  align-items: center;
+  flex-direction: initial;
+  position: relative;
+  bottom: 18px;
+}
+.wrapper .debit-card .debit-footer .name .title {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.wrapper .debit-card .debit-footer .name svg {
+  width: 4em;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+  .wrapper {
+    position: relative;
+    left: 43%;
+    transform: translate(-50%, 0);
+    top: -83px;
+  }
+  .debit-card {
+    transform: rotate(-90deg);
+  }
+}
+
+/*# sourceMappingURL=new.css.map */
